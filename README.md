@@ -25,9 +25,9 @@ npm install --force
 yarn install
 ```
 
-3. **Ver si es necesario cambiar los valores en .env **
+3. **Ver si es necesario cambiar los valores en .env**
 
-4. **Iniciar la Aplicacion **
+4. **Iniciar la Aplicacion**
 ```bash
 npm start
 npm start
