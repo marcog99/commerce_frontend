@@ -1,16 +1,22 @@
-# Commerce Frontend
+# 🛍️ Commerce Frontend
 
-## Installation Guide
+Este es el frontend de una aplicación de comercio electrónico desarrollada con **React + TypeScript**. Consume una API REST construida en Node.js y está diseñada para administrar productos, categorías y autenticación de usuarios.
 
-### Prerequisites
+---
 
-- Node.js (version 14 or higher)
-- npm or yarn package manager
-- Backend API running and accessible
+## ⚙️ Guía de Instalación
 
-### Steps
+### ✅ Requisitos
 
-1. **Clonar el repositorio**
+- Node.js (versión 14 o superior)
+- npm o yarn
+- Backend ejecutándose en `http://localhost:3000` o la URL que configures
+
+---
+
+### 🚀 Pasos para ejecutar el proyecto
+
+#### 1. Clonar el repositorio
 
 ```bash
 git clone https://github.com/your-username/commerce_frontend.git
@@ -25,32 +31,12 @@ npm install --force
 yarn install
 ```
 
-5. **Abre SQL Server Management Studio o cualquier cliente SQL y ejecuta**
-
-```code
-CREATE DATABASE ECOMMERCE;
-GO
-```
-
-6. **Ejecutar la base de datos la cual se encuentra en el archivo BD_STRUCTURE.sql**
-
-7. **Actualizar valores de archivo .env**
-
-DB_TYPE=mssql
-DB_HOST=GTLTECMGARCIA\\SQLEXPRESS
-DB_PORT=1433
-DB_USERNAME=admin
-DB_PASSWORD=123
-DB_NAME=ECOMMERCE
-JWT_SECRET=MARCOPC303GARCIA9903
-PORT=3000
-ORIGIN=http://localhost:3001
-
+3. **Ver si es necesario cambiar los valores en .env ubicado en la raiz del proyecto**
 
 4. **Iniciar la Aplicacion**
 ```bash
-npm run dev
-yarn dev
+npm start
+npm start
 ```
 
 
