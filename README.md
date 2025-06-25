@@ -1,6 +1,6 @@
 # 🛍️ Commerce Frontend
 
-Este es el frontend de una aplicación de comercio electrónico desarrollada con **React + TypeScript**. Consume una API REST construida en Node.js y está diseñada para administrar productos, categorías y autenticación de usuarios.
+Este es el frontend de la aplicación de comercio electrónico desarrollada con **React + TypeScript**. Consume una API REST construida en Node.js y está diseñada para administrar productos, categorías y autenticación de usuarios.
 
 ---
 
