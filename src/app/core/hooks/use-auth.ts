@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { DecodeToken, DecodeTokenInterface } from "../utils/decode-token"; // your own utility
+import { DecodeToken, DecodeTokenInterface } from "../utils/decode-token"; 
 
 export function useAuthHook() {
   const [token, setToken] = useState<string | null>(() => localStorage.getItem("token"));
