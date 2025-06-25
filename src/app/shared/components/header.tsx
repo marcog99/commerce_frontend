@@ -40,7 +40,7 @@ export function Header() {
               alt="logo de la empresa"
               className="w-50 h-10 object-contain transition-transform duration-300 group-hover:scale-105"
             ></img>           
-             <span className="text-xl font-bold font-mono">CEMACO</span>
+             <span className="text-xl font-bold text-blue-900 font-mono">CEMACO</span>
           </Link>
 
           <nav className="hidden md:flex items-center space-x-8">
